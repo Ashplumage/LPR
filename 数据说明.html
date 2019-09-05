@@ -1,0 +1,232 @@
+<!doctype html>
+<html>
+<head>
+<meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
+<title>数据说明</title><link href='https://fonts.loli.net/css?family=Open+Sans:400italic,700italic,700,400&subset=latin,latin-ext' rel='stylesheet' type='text/css' /><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
+iframe { margin: auto; }
+a.url { word-break: break-all; }
+a:active, a:hover { outline: 0px; }
+.in-text-selection, ::selection { text-shadow: none; background: var(--select-text-bg-color); color: var(--select-text-font-color); }
+#write { margin: 0px auto; height: auto; width: inherit; word-break: normal; word-wrap: break-word; position: relative; white-space: normal; overflow-x: visible; padding-top: 40px; }
+#write.first-line-indent p { text-indent: 2em; }
+#write.first-line-indent li p, #write.first-line-indent p * { text-indent: 0px; }
+#write.first-line-indent li { margin-left: 2em; }
+.for-image #write { padding-left: 8px; padding-right: 8px; }
+body.typora-export { padding-left: 30px; padding-right: 30px; }
+.typora-export .footnote-line, .typora-export li, .typora-export p { white-space: pre-wrap; }
+@media screen and (max-width: 500px) {
+  body.typora-export { padding-left: 0px; padding-right: 0px; }
+  #write { padding-left: 20px; padding-right: 20px; }
+  .CodeMirror-sizer { margin-left: 0px !important; }
+  .CodeMirror-gutters { display: none !important; }
+}
+#write li > figure:first-child { margin-top: -20px; }
+#write ol, #write ul { position: relative; }
+img { max-width: 100%; vertical-align: middle; }
+button, input, select, textarea { color: inherit; font-style: inherit; font-variant: inherit; font-weight: inherit; font-stretch: inherit; font-size: inherit; line-height: inherit; font-family: inherit; }
+input[type="checkbox"], input[type="radio"] { line-height: normal; padding: 0px; }
+*, ::after, ::before { box-sizing: border-box; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p, #write pre { width: inherit; }
+#write h1, #write h2, #write h3, #write h4, #write h5, #write h6, #write p { position: relative; }
+h1, h2, h3, h4, h5, h6 { break-after: avoid-page; break-inside: avoid; orphans: 2; }
+p { orphans: 4; }
+h1 { font-size: 2rem; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.6rem; }
+h4 { font-size: 1.4rem; }
+h5 { font-size: 1.2rem; }
+h6 { font-size: 1rem; }
+.md-math-block, .md-rawblock, h1, h2, h3, h4, h5, h6, p { margin-top: 1rem; margin-bottom: 1rem; }
+.hidden { display: none; }
+.md-blockmeta { color: rgb(204, 204, 204); font-weight: 700; font-style: italic; }
+a { cursor: pointer; }
+sup.md-footnote { padding: 2px 4px; background-color: rgba(238, 238, 238, 0.7); color: rgb(85, 85, 85); border-radius: 4px; cursor: pointer; }
+sup.md-footnote a, sup.md-footnote a:hover { color: inherit; text-transform: inherit; text-decoration: inherit; }
+#write input[type="checkbox"] { cursor: pointer; width: inherit; height: inherit; }
+figure { overflow-x: auto; margin: 1.2em 0px; max-width: calc(100% + 16px); padding: 0px; }
+figure > table { margin: 0px !important; }
+tr { break-inside: avoid; break-after: auto; }
+thead { display: table-header-group; }
+table { border-collapse: collapse; border-spacing: 0px; width: 100%; overflow: auto; break-inside: auto; text-align: left; }
+table.md-table td { min-width: 32px; }
+.CodeMirror-gutters { border-right: 0px; background-color: inherit; }
+.CodeMirror-linenumber { user-select: none; }
+.CodeMirror { text-align: left; }
+.CodeMirror-placeholder { opacity: 0.3; }
+.CodeMirror pre { padding: 0px 4px; }
+.CodeMirror-lines { padding: 0px; }
+div.hr:focus { cursor: none; }
+#write pre { white-space: pre-wrap; }
+#write.fences-no-line-wrapping pre { white-space: pre; }
+#write pre.ty-contain-cm { white-space: normal; }
+.CodeMirror-gutters { margin-right: 4px; }
+.md-fences { font-size: 0.9rem; display: block; break-inside: avoid; text-align: left; overflow: visible; white-space: pre; background: inherit; position: relative !important; }
+.md-diagram-panel { width: 100%; margin-top: 10px; text-align: center; padding-top: 0px; padding-bottom: 8px; overflow-x: auto; }
+#write .md-fences.mock-cm { white-space: pre-wrap; }
+.md-fences.md-fences-with-lineno { padding-left: 0px; }
+#write.fences-no-line-wrapping .md-fences.mock-cm { white-space: pre; overflow-x: auto; }
+.md-fences.mock-cm.md-fences-with-lineno { padding-left: 8px; }
+.CodeMirror-line, twitterwidget { break-inside: avoid; }
+.footnotes { opacity: 0.8; font-size: 0.9rem; margin-top: 1em; margin-bottom: 1em; }
+.footnotes + .footnotes { margin-top: 0px; }
+.md-reset { margin: 0px; padding: 0px; border: 0px; outline: 0px; vertical-align: top; background: 0px 0px; text-decoration: none; text-shadow: none; float: none; position: static; width: auto; height: auto; white-space: nowrap; cursor: inherit; -webkit-tap-highlight-color: transparent; line-height: normal; font-weight: 400; text-align: left; box-sizing: content-box; direction: ltr; }
+li div { padding-top: 0px; }
+blockquote { margin: 1rem 0px; }
+li .mathjax-block, li p { margin: 0.5rem 0px; }
+li { margin: 0px; position: relative; }
+blockquote > :last-child { margin-bottom: 0px; }
+blockquote > :first-child, li > :first-child { margin-top: 0px; }
+.footnotes-area { color: rgb(136, 136, 136); margin-top: 0.714rem; padding-bottom: 0.143rem; white-space: normal; }
+#write .footnote-line { white-space: pre-wrap; }
+@media print {
+  body, html { border: 1px solid transparent; height: 99%; break-after: avoid; break-before: avoid; }
+  #write { margin-top: 0px; padding-top: 0px; border-color: transparent !important; }
+  .typora-export * { -webkit-print-color-adjust: exact; }
+  html.blink-to-pdf { font-size: 13px; }
+  .typora-export #write { padding-left: 32px; padding-right: 32px; padding-bottom: 0px; break-after: avoid; }
+  .typora-export #write::after { height: 0px; }
+  @page { margin: 20mm 0px; }
+}
+.footnote-line { margin-top: 0.714em; font-size: 0.7em; }
+a img, img a { cursor: pointer; }
+pre.md-meta-block { font-size: 0.8rem; min-height: 0.8rem; white-space: pre-wrap; background: rgb(204, 204, 204); display: block; overflow-x: hidden; }
+p > .md-image:only-child:not(.md-img-error) img, p > img:only-child { display: block; margin: auto; }
+p > .md-image:only-child { display: inline-block; width: 100%; }
+#write .MathJax_Display { margin: 0.8em 0px 0px; }
+.md-math-block { width: 100%; }
+.md-math-block:not(:empty)::after { display: none; }
+[contenteditable="true"]:active, [contenteditable="true"]:focus { outline: 0px; box-shadow: none; }
+.md-task-list-item { position: relative; list-style-type: none; }
+.task-list-item.md-task-list-item { padding-left: 0px; }
+.md-task-list-item > input { position: absolute; top: 0px; left: 0px; margin-left: -1.2em; margin-top: calc(1em - 10px); border: none; }
+.math { font-size: 1rem; }
+.md-toc { min-height: 3.58rem; position: relative; font-size: 0.9rem; border-radius: 10px; }
+.md-toc-content { position: relative; margin-left: 0px; }
+.md-toc-content::after, .md-toc::after { display: none; }
+.md-toc-item { display: block; color: rgb(65, 131, 196); }
+.md-toc-item a { text-decoration: none; }
+.md-toc-inner:hover { text-decoration: underline; }
+.md-toc-inner { display: inline-block; cursor: pointer; }
+.md-toc-h1 .md-toc-inner { margin-left: 0px; font-weight: 700; }
+.md-toc-h2 .md-toc-inner { margin-left: 2em; }
+.md-toc-h3 .md-toc-inner { margin-left: 4em; }
+.md-toc-h4 .md-toc-inner { margin-left: 6em; }
+.md-toc-h5 .md-toc-inner { margin-left: 8em; }
+.md-toc-h6 .md-toc-inner { margin-left: 10em; }
+@media screen and (max-width: 48em) {
+  .md-toc-h3 .md-toc-inner { margin-left: 3.5em; }
+  .md-toc-h4 .md-toc-inner { margin-left: 5em; }
+  .md-toc-h5 .md-toc-inner { margin-left: 6.5em; }
+  .md-toc-h6 .md-toc-inner { margin-left: 8em; }
+}
+a.md-toc-inner { font-size: inherit; font-style: inherit; font-weight: inherit; line-height: inherit; }
+.footnote-line a:not(.reversefootnote) { color: inherit; }
+.md-attr { display: none; }
+.md-fn-count::after { content: "."; }
+code, pre, samp, tt { font-family: var(--monospace); }
+kbd { margin: 0px 0.1em; padding: 0.1em 0.6em; font-size: 0.8em; color: rgb(36, 39, 41); background: rgb(255, 255, 255); border: 1px solid rgb(173, 179, 185); border-radius: 3px; box-shadow: rgba(12, 13, 14, 0.2) 0px 1px 0px, rgb(255, 255, 255) 0px 0px 0px 2px inset; white-space: nowrap; vertical-align: middle; }
+.md-comment { color: rgb(162, 127, 3); opacity: 0.8; font-family: var(--monospace); }
+code { text-align: left; vertical-align: initial; }
+a.md-print-anchor { white-space: pre !important; border-width: initial !important; border-style: none !important; border-color: initial !important; display: inline-block !important; position: absolute !important; width: 1px !important; right: 0px !important; outline: 0px !important; background: 0px 0px !important; text-decoration: initial !important; text-shadow: initial !important; }
+.md-inline-math .MathJax_SVG .noError { display: none !important; }
+.html-for-mac .inline-math-svg .MathJax_SVG { vertical-align: 0.2px; }
+.md-math-block .MathJax_SVG_Display { text-align: center; margin: 0px; position: relative; text-indent: 0px; max-width: none; max-height: none; min-height: 0px; min-width: 100%; width: auto; overflow-y: hidden; display: block !important; }
+.MathJax_SVG_Display, .md-inline-math .MathJax_SVG_Display { width: auto; margin: inherit; display: inline-block !important; }
+.MathJax_SVG .MJX-monospace { font-family: var(--monospace); }
+.MathJax_SVG .MJX-sans-serif { font-family: sans-serif; }
+.MathJax_SVG { display: inline; font-style: normal; font-weight: 400; line-height: normal; zoom: 90%; text-indent: 0px; text-align: left; text-transform: none; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; direction: ltr; max-width: none; max-height: none; min-width: 0px; min-height: 0px; border: 0px; padding: 0px; margin: 0px; }
+.MathJax_SVG * { transition: none; }
+.MathJax_SVG_Display svg { vertical-align: middle !important; margin-bottom: 0px !important; }
+.os-windows.monocolor-emoji .md-emoji { font-family: "Segoe UI Symbol", sans-serif; }
+.md-diagram-panel > svg { max-width: 100%; }
+[lang="mermaid"] svg, [lang="flow"] svg { max-width: 100%; }
+[lang="mermaid"] .node text { font-size: 1rem; }
+table tr th { border-bottom: 0px; }
+video { max-width: 100%; display: block; margin: 0px auto; }
+iframe { max-width: 100%; width: 100%; border: none; }
+.highlight td, .highlight tr { border: 0px; }
+
+
+:root { --side-bar-bg-color: #fafafa; --control-text-color: #777; }
+html { font-size: 16px; }
+body { font-family: "Open Sans", "Clear Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; color: rgb(51, 51, 51); line-height: 1.6; }
+#write { max-width: 860px; margin: 0px auto; padding: 30px 30px 100px; }
+#write > ul:first-child, #write > ol:first-child { margin-top: 30px; }
+a { color: rgb(65, 131, 196); }
+h1, h2, h3, h4, h5, h6 { position: relative; margin-top: 1rem; margin-bottom: 1rem; font-weight: bold; line-height: 1.4; cursor: text; }
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor { text-decoration: none; }
+h1 tt, h1 code { font-size: inherit; }
+h2 tt, h2 code { font-size: inherit; }
+h3 tt, h3 code { font-size: inherit; }
+h4 tt, h4 code { font-size: inherit; }
+h5 tt, h5 code { font-size: inherit; }
+h6 tt, h6 code { font-size: inherit; }
+h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+h3 { font-size: 1.5em; line-height: 1.43; }
+h4 { font-size: 1.25em; }
+h5 { font-size: 1em; }
+h6 { font-size: 1em; color: rgb(119, 119, 119); }
+p, blockquote, ul, ol, dl, table { margin: 0.8em 0px; }
+li > ol, li > ul { margin: 0px; }
+hr { height: 2px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; overflow: hidden; box-sizing: content-box; }
+li p.first { display: inline-block; }
+ul, ol { padding-left: 30px; }
+ul:first-child, ol:first-child { margin-top: 0px; }
+ul:last-child, ol:last-child { margin-bottom: 0px; }
+blockquote { border-left: 4px solid rgb(223, 226, 229); padding: 0px 15px; color: rgb(119, 119, 119); }
+blockquote blockquote { padding-right: 0px; }
+table { padding: 0px; word-break: initial; }
+table tr { border-top: 1px solid rgb(223, 226, 229); margin: 0px; padding: 0px; }
+table tr:nth-child(2n), thead { background-color: rgb(248, 248, 248); }
+table tr th { font-weight: bold; border-width: 1px 1px 0px; border-top-style: solid; border-right-style: solid; border-left-style: solid; border-top-color: rgb(223, 226, 229); border-right-color: rgb(223, 226, 229); border-left-color: rgb(223, 226, 229); border-image: initial; border-bottom-style: initial; border-bottom-color: initial; text-align: left; margin: 0px; padding: 6px 13px; }
+table tr td { border: 1px solid rgb(223, 226, 229); text-align: left; margin: 0px; padding: 6px 13px; }
+table tr th:first-child, table tr td:first-child { margin-top: 0px; }
+table tr th:last-child, table tr td:last-child { margin-bottom: 0px; }
+.CodeMirror-lines { padding-left: 4px; }
+.code-tooltip { box-shadow: rgba(0, 28, 36, 0.3) 0px 1px 1px 0px; border-top: 1px solid rgb(238, 242, 242); }
+.md-fences, code, tt { border: 1px solid rgb(231, 234, 237); background-color: rgb(248, 248, 248); border-radius: 3px; padding: 2px 4px 0px; font-size: 0.9em; }
+code { background-color: rgb(243, 244, 244); padding: 0px 2px; }
+.md-fences { margin-bottom: 15px; margin-top: 15px; padding-top: 8px; padding-bottom: 6px; }
+.md-task-list-item > input { margin-left: -1.3em; }
+@media print {
+  html { font-size: 13px; }
+  table, pre { break-inside: avoid; }
+  pre { word-wrap: break-word; }
+}
+.md-fences { background-color: rgb(248, 248, 248); }
+#write pre.md-meta-block { padding: 1rem; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border: 0px; border-radius: 3px; color: rgb(119, 119, 119); margin-top: 0px !important; }
+.mathjax-block > .code-tooltip { bottom: 0.375rem; }
+.md-mathjax-midline { background: rgb(250, 250, 250); }
+#write > h3.md-focus::before { left: -1.5625rem; top: 0.375rem; }
+#write > h4.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h5.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+#write > h6.md-focus::before { left: -1.5625rem; top: 0.285714rem; }
+.md-image > .md-meta { border-radius: 3px; padding: 2px 0px 0px 4px; font-size: 0.9em; color: inherit; }
+.md-tag { color: rgb(167, 167, 167); opacity: 1; }
+.md-toc { margin-top: 20px; padding-bottom: 20px; }
+.sidebar-tabs { border-bottom: none; }
+#typora-quick-open { border: 1px solid rgb(221, 221, 221); background-color: rgb(248, 248, 248); }
+#typora-quick-open-item { background-color: rgb(250, 250, 250); border-color: rgb(254, 254, 254) rgb(229, 229, 229) rgb(229, 229, 229) rgb(238, 238, 238); border-style: solid; border-width: 1px; }
+.on-focus-mode blockquote { border-left-color: rgba(85, 85, 85, 0.12); }
+header, .context-menu, .megamenu-content, footer { font-family: "Segoe UI", Arial, sans-serif; }
+.file-node-content:hover .file-node-icon, .file-node-content:hover .file-node-open-state { visibility: visible; }
+.mac-seamless-mode #typora-sidebar { background-color: var(--side-bar-bg-color); }
+.md-lang { color: rgb(180, 101, 77); }
+.html-for-mac .context-menu { --item-hover-bg-color: #E6F0FE; }
+#md-notification .btn { border: 0px; }
+.dropdown-menu .divider { border-color: rgb(229, 229, 229); }
+
+
+
+
+
+ .typora-export li, .typora-export p, .typora-export,  .footnote-line {white-space: normal;} 
+</style>
+</head>
+<body class='typora-export os-windows' >
+<div  id='write'  class = 'is-node first-line-indent'><h1><a name='header-n0' class='md-header-anchor '></a>数据说明</h1><p>数据由7个word文档说明，里面介绍了需要识别的车牌的具体信息，包括车牌的种类，车牌上的文字及字母代表的含义，以及车牌的大小等信息。</p><ul><li><p>1.NIGERIA.docx</p></li><li><p>2.BURKINA FASO- DIPLOMATIC.doc</p></li><li><p>3.BURKINA FASO- PPP.doc</p></li><li><p>4.BURKINA FASO -PRIVATE.doc</p></li><li><p>5.BURKINA FASO-GOVT.doc</p></li><li><p>6.BURKINA-FASO -INTERNATIONAL ORG..doc</p></li><li><p>7.TOGO.docx</p><p>&nbsp;</p></li></ul><h2><a name='header-n81' class='md-header-anchor '></a>1.BURKINA FASO- DIPLOMATIC.doc</h2><p>这个数据种类集来源于“大使”（<strong>EMBASSIES</strong>）车牌，其中包含3个小类别，每个类别的车牌有些许差异。</p><figure><table><thead><tr><th>编号</th><th>种类</th><th>车牌样例</th><th>车牌大小</th><th>车牌材料</th><th>案例图</th><th>说明</th></tr></thead><tbody><tr><td>1</td><td>大使馆（L）</td><td><img src='BURKINA FASO- DIPLOMATIC/TEMPLATE/TEMPLATE 1.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO-%20DIPLOMATIC/Embassy(L)'>link</a></td><td>前两个数字代表国家，CD代表外交使团，后四个数字是随机选择的。 和带有圆圈布基纳法索地图的BF。 板材背景为绿色，字体为橙色。</td></tr><tr><td>2</td><td>大使馆（S）</td><td><img src='BURKINA FASO- DIPLOMATIC/TEMPLATE/TEMPLATE 2.png' alt='ref' referrerPolicy='no-referrer' /></td><td>320X180mm</td><td>反光板</td><td><a href='BURKINA%20FASO-%20DIPLOMATIC/Embassy%20(S)'>link</a></td><td>前两个数字代表国家，CD代表外交使团，后四个数字是随机选择的。 和带有圆圈布基纳法索地图的BF。板材背景为绿色，字体为橙色。</td></tr><tr><td>3</td><td>大使馆（L）使团车队车头</td><td><img src='BURKINA FASO- DIPLOMATIC/TEMPLATE/TEMPLATE 3.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO-%20DIPLOMATIC/Embassy%20(L)HEAD%20OF%20MISSION'>link</a></td><td>前两个数字代表国家，CMD代表外交使团团长和BF带有圆圈的布基纳法索地图。 板材背景为绿色，字体为橙色。</td></tr></tbody></table></figure><p>注：L表示较长的车牌（520X110mm)</p><p><span>	</span>S表示较短的车牌（320X180mm)</p><p>以下均适用</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2><a name='header-n120' class='md-header-anchor '></a>2.BURKINA FASO- PPP.doc</h2><p>这个数据种类集来源于“公共私营伙伴关系”（<strong>PUBLIC PRIVATE PARTNERSHIP</strong>）车牌，其中包含3个小类别，每个类别的车牌有些许差异。</p><figure><table><thead><tr><th>编号</th><th>种类</th><th>车牌样例</th><th>车牌大小</th><th>车牌材料</th><th>案例图</th><th>说明</th></tr></thead><tbody><tr><td>1</td><td>PPPs (L)</td><td><img src='BURKINA FASO- PPP/TEMPLATE/TEMPLATE 1.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO-%20PPP/PPPs%20(L)'>link</a></td><td>前两个数字代表注册省，E代表PPP，后四个数字是随机选择的，BF带有圆圈的布基纳法索地图。 板材背景为蓝色，字体为白色。</td></tr><tr><td>2</td><td>PPPs (S)</td><td><img src='BURKINA FASO- PPP/TEMPLATE/TEMPLATE 2.png' alt='ref' referrerPolicy='no-referrer' /></td><td>320X180mm</td><td>反光板</td><td><a href='BURKINA%20FASO-%20PPP/PPPs%20(S)'>link</a></td><td>前两个数字代表注册省，E代表PPP，后四个数字是随机选择的，BF带有圆圈的布基纳法索地图。 板材背景为蓝色，字体为白色。</td></tr><tr><td>3</td><td>PPP TYPE 2</td><td><img src='BURKINA FASO- PPP/TEMPLATE/TEMPLATE 3.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO-%20PPP/PPP%20TYPE%202'>link</a></td><td>前两个数字代表注册省，E代表PPP，后四个数字是随机选择的，BF带有圆圈的布基纳法索地图。IT表明车辆暂时免征进口税。板材背景为蓝色，字体为白色。</td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2><a name='header-n156' class='md-header-anchor '></a>3.BURKINA FASO -PRIVATE.doc</h2><p>这个数据种类集来源于“私家车”（<strong>PRIVATE</strong>）车牌，其中包含5个小类别，每个类别的车牌有些许差异。</p><p>&nbsp;</p><figure><table><thead><tr><th>编号</th><th>种类</th><th>车牌样例</th><th>车牌大小</th><th>车牌材料</th><th>案例图</th><th>说明</th></tr></thead><tbody><tr><td>1</td><td>Private (Personal and Commercial)(L)*</td><td><img src='BURKINA FASO -PRIVATE/TEMPLATE/TEMPLATE 1.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO%20-PRIVATE/Private%20(Personal%20and%20Commercial)(L)'>link</a></td><td>前两个数字代表注册省，两个字母代表注册年份，最后四个数字随机选择，BF带有圆圈布基纳法索地图。 字体为黑色，背景为白色。</td></tr><tr><td>2</td><td>Private (Personal and Commercial) (S)*</td><td><img src='BURKINA FASO -PRIVATE/TEMPLATE/TEMPLATE 2.png' alt='ref' referrerPolicy='no-referrer' /></td><td>320X180mm</td><td>反光板</td><td><a href='BURKINA%20FASO%20-PRIVATE/Private%20(Personal%20and%20Commercial)%20(S)'>link</a></td><td>前两个数字代表注册省，两个字母代表注册年份，最后四个数字随机选择，BF带有圆圈布基纳法索地图。 字体为黑色，背景为白色。</td></tr><tr><td>3</td><td>Motor</td><td><img src='BURKINA FASO -PRIVATE/TEMPLATE/TEMPLATE 3.png' alt='ref' referrerPolicy='no-referrer' /></td><td>250x130mm</td><td>反光板</td><td><a href='BURKINA%20FASO%20-PRIVATE/Motor'>link</a></td><td>前两个数字代表注册省，两个字母代表注册年份，最后四个数字随机选择，BF带有圆圈布基纳法索地图。 字体为黑色，背景为白色。</td></tr><tr><td>4</td><td>Temporary Project Type 1(L)</td><td><img src='BURKINA FASO -PRIVATE/TEMPLATE/TEMPLATE 4.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO%20-PRIVATE/Temporary%20Project%20Type%201(L)'>link</a></td><td>前两个数字代表注册省，两个字母代表注册年份，最后四个数字随机选择，BF带有圆圈布基纳法索地图。IT表示车辆暂时免征进口税。字体为黑色，背景为白色。</td></tr><tr><td>5</td><td>Temporary Project Type 1 (S)</td><td><img src='BURKINA FASO -PRIVATE/TEMPLATE/TEMPLATE 5.png' alt='ref' referrerPolicy='no-referrer' /></td><td>320X180mm</td><td>反光板</td><td><a href='BURKINA%20FASO%20-PRIVATE/Temporary%20Project%20Type%201%20(S)'>link</a></td><td>前两个数字代表注册省，两个字母代表注册年份，最后四个数字随机选择，BF带有圆圈布基纳法索地图。 IT表示车辆暂时免征进口税。字体为黑色，背景为白色。</td></tr></tbody></table></figure><p>注意：个人和商用车辆的车牌之间没有区别</p><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2><a name='header-n210' class='md-header-anchor '></a>4.BURKINA FASO-GOVT.doc</h2><p>这个数据种类集来源于“政府部门车”（<strong>GOVERNMENT</strong>）车牌，其中包含8个小类别，每个类别的车牌有些许差异。</p><figure><table><thead><tr><th>编号</th><th>种类</th><th>车牌样例</th><th>车牌大小</th><th>车牌材料</th><th>案例图</th><th>说明</th></tr></thead><tbody><tr><td>1</td><td>MDAs Type 1(L)</td><td><img src='BURKINA FASO-GOVT/TEMPLATE/TEMPLATE 1.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO-GOVT/MDAs%20Type%201(L)'>link</a></td><td>前两个数字代表登记省，AA显示车辆是国有的，后四个数字是随机选择的，BF带有圆圈的布基纳法索地图。 字体为白色，背景为红色。</td></tr><tr><td>2</td><td>MDAs Type 1(S)</td><td><img src='BURKINA FASO-GOVT/TEMPLATE/TEMPLATE 2.png' alt='ref' referrerPolicy='no-referrer' /></td><td>320X180mm</td><td>反光板</td><td><a href='BURKINA%20FASO-GOVT/MDAs%20Type%201(S)'>link</a></td><td>前两个数字代表登记省，AA显示车辆是国有的，后四个数字是随机选择的，BF带有圆圈的布基纳法索地图。 字体为白色，背景为红色。</td></tr><tr><td>3</td><td>MDAs Type 2</td><td><img src='BURKINA FASO-GOVT/TEMPLATE/TEMPLATE 3.png' alt='ref' referrerPolicy='no-referrer' /></td><td>320X180mm</td><td>反光板</td><td><a href='BURKINA%20FASO-GOVT/MDAs%20Type%202'>link</a></td><td>前两个数字代表登记省，C表示车辆是当地集会的公共所有，后四个数字是随机选择的，BF带有圆圈的布基纳法索地图。 字体为白色，背景为红色。</td></tr><tr><td>4</td><td>MDAs Type 3</td><td><img src='BURKINA FASO-GOVT/TEMPLATE/TEMPLATE 4.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO-GOVT/MDAs%20Type%203'>link</a></td><td>前两个数字代表登记省，AA显示车辆是国有的，后四个数字是随机选择的，IT表明车辆暂时免征进口税，而BF则带有圆圈的布基纳法索地图。字体为白色，背景为红色。</td></tr><tr><td>5</td><td>Gendarmerie Type1</td><td><img src='BURKINA FASO-GOVT/TEMPLATE/TEMPLATE 5.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO-GOVT/Gendarmerie%20Type1'>link</a></td><td>2表示宪兵车辆，后四个数字是随机选择的，后跟宪兵队徽章，EMGN是国家宪兵队总部的首字母。字体为白色，背景为黑色。</td></tr><tr><td>6</td><td>Gendarmerie Type 2</td><td><img src='BURKINA FASO-GOVT/TEMPLATE/TEMPLATE 6.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>普通车牌</td><td><a href='BURKINA%20FASO-GOVT/Gendarmerie%20Type%202'>link</a></td><td>2表示宪兵车辆，后四个数字是随机选择的，后跟宪兵队徽章，G3代表宪兵队的其中一个单位。字体为白色，背景为黑色。</td></tr><tr><td>7</td><td>Gendarmerie Type 3</td><td><img src='BURKINA FASO-GOVT/TEMPLATE/TEMPLATE 7.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA%20FASO-GOVT/Gendarmerie%20Type%203'>link</a></td><td>布基纳法索旗帜，2表示宪兵车辆，后四个数字是随机选择的，DC代表宪兵队的其中一个单位。字体为白色，背景为黑色。</td></tr><tr><td>8</td><td>National Police</td><td><img src='BURKINA FASO-GOVT/TEMPLATE/TEMPLATE 8.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>普通车牌</td><td><a href='BURKINA%20FASO-GOVT/National%20Police'>link</a></td><td>警察标志，PN代表国家警察，后四个数字是随机选择的，后跟BF字母。字体为白色，背景为黑色。</td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2><a name='header-n286' class='md-header-anchor '></a>5.BURKINA-FASO -INTERNATIONAL ORG..doc</h2><p>这个数据种类集来源于“国际组织”（<strong>INTERNATIONAL ORGANISATIONS</strong>）车牌，其中包含2个小类别，每个类别的车牌有些许差异。</p><figure><table><thead><tr><th>编号</th><th>种类</th><th>车牌样例</th><th>车牌大小</th><th>车牌材料</th><th>案例图</th><th>说明</th></tr></thead><tbody><tr><td>1</td><td>International Organisation(L)</td><td><img src='BURKINA-FASO -INTERNATIONAL ORG/TEMPLATE/TEMPLATE 1.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520X110mm</td><td>反光板</td><td><a href='BURKINA-FASO%20-INTERNATIONAL%20ORG/International%20Organisation(L)'>link</a></td><td>前两个数字代表组织，IN代表国际组织，最后四个数字是随机选择的，BF带有圆圈的布基纳法索地图。 板材背景为绿色，字体为橘黄色。</td></tr><tr><td>2</td><td>International Organisation  (S)</td><td><img src='BURKINA-FASO -INTERNATIONAL ORG/TEMPLATE/TEMPLATE 2.png' alt='ref' referrerPolicy='no-referrer' /></td><td>320X180mm</td><td>反光板</td><td><a href='BURKINA-FASO%20-INTERNATIONAL%20ORG/International%20Organisation%20%20(S)'>link</a></td><td>前两个数字代表组织，IN代表国际组织，最后四个数字是随机选择的，BF带有圆圈的布基纳法索地图。 板材背景为绿色，字体为橘黄色。</td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2><a name='header-n541' class='md-header-anchor '></a>6.NIGERIA（尼日利亚）</h2><p>这是一个介绍整个国家车牌种类及差异的介绍文档，文档中包含5种类型的车牌种类。</p><p>尼日利亚（Nigerian）车牌种类及相应的文字描述信息如下：</p><figure><table><thead><tr><th>类型</th><th>车牌背景颜色</th><th>字体颜色</th></tr></thead><tbody><tr><td>私家（Private）</td><td>白色</td><td>蓝色</td></tr><tr><td>商务（Commercial）</td><td>白色</td><td>红色</td></tr><tr><td>政府（Government）</td><td>白色</td><td>绿色</td></tr><tr><td>武装部队/准军事部队（Armed Forces/Paramilitary）</td><td>白色</td><td>黑色</td></tr><tr><td>外交（Diplomatic）</td><td>紫色</td><td>白色</td></tr><tr><td>国际组织（International Organizations）</td><td>蓝色</td><td>白色</td></tr></tbody></table></figure><h4><a name='header-n574' class='md-header-anchor '></a>详细说明</h4><p>目前使用的尼日利亚车辆登记牌于1992年引入并于2011年修订。尼日利亚和利比里亚是仅有的两个使用北美标准6×12英寸（152×300mm）的非洲国家。 尼日利亚的国际代码是“WAN”（West Africa Nigeria）</p><p>除了外交界 (Diplomatic) 和国际组织 (International Organizations) 的牌照外，车牌通常都是白色背景，其数字和字母印有蓝色，红色，绿色和黑色，具体取决于汽车的分类。 左上角通常带有尼日利亚国旗，右边是国徽，而国家地图则在背景中。 州名和口号显示在盘子的顶部中央，底部写着“尼日利亚联邦共和国”（Federal Republic of Nigeria）。</p><p>独特的板组合本身采用ABC-123DE格式。 前三个字母表示车辆登记的地方政府区域，后面跟着三位数字和两个字母。 背景包括尼日利亚地图的轮廓。 在2011年之前，表示地方政府区域的三个字母最后是AB123-CDE格式。</p><p>其他类型的牌照也在使用中。 商用车用红色写成，政府车牌用绿色。 外交牌照有紫色背景和白色字体，最多由三个数字组成，其次是CD或CMD和另一个数字。 他们没有使用国家名称，而是使用了CORPS DIPLOMATIQUE。 领事馆的汽车有字母CC（CORPS CONSULAIRE）。</p><h4><a name='header-n580' class='md-header-anchor '></a>五种颜色的字体的车牌详细说明</h4><figure><table><thead><tr><th>颜色</th><th>说明</th></tr></thead><tbody><tr><td>蓝色</td><td>蓝色字母车牌号码是尼日利亚人非常常见的车牌号码。 蓝板号基本上用于私人车辆。</td></tr><tr><td>红色</td><td>红色字母车牌号是尼日利亚最受欢迎和最常见的车牌号码。 它主要用于商用车辆，如公共交通巴士，出租车甚至公司车辆。 国家和口号写在板号上。</td></tr><tr><td>绿色</td><td>绿色字母车牌号码主要用于高级公务员或通过选举或任命担任政治职位的个人。 绿色车牌号在尼日利亚享有很多特权。 大部分时间都是由政府购买和许可的。 车牌上没有写任何州</td></tr><tr><td>黑色</td><td>黑色字母车牌号几乎看不到。 它主要用于军事和军事行动人员，如尼日利亚陆军，海军，空军，警察，民防，道路安全等等。 车牌上写的是部队编号而不是车牌号码。</td></tr><tr><td>紫色</td><td>紫色背景与白色编号是一种非常罕见的板编号颜色。 它基本上被外交官使用。 许可证编号大多数时间由最多三个数字组成，其次是CD或CMD和另一个数字。 Corp Diplomat不是包含州名，而是写在顶部</td></tr></tbody></table></figure><p>&nbsp;</p><figure><table><thead><tr><th>编号</th><th>种类</th><th>车牌样例</th><th>车牌大小</th><th>车牌材料</th><th>案例图</th></tr></thead><tbody><tr><td>1</td><td>私家车（Private）</td><td><img src='NIGERIA/TEMPLATE/TEMPLATE 1.png' alt='ref' referrerPolicy='no-referrer' /></td><td>152X300mm</td><td>反光金属板、反光字体</td><td><img src='NIGERIA/Private/SAMPLE1.jpg' alt='ref' referrerPolicy='no-referrer' /></td></tr><tr><td>2</td><td>商务车（Commercial）</td><td><img src='NIGERIA/TEMPLATE/TEMPLATE 2.png' alt='ref' referrerPolicy='no-referrer' /></td><td>152X300mm</td><td>反光金属板、反光字体</td><td><img src='NIGERIA/Commercial/SAMPLE2.jpg' alt='ref' referrerPolicy='no-referrer' /></td></tr><tr><td>3</td><td>顶级公务员或持有政治职务的个人</td><td><img src='NIGERIA/TEMPLATE/TEMPLATE 3.png' alt='ref' referrerPolicy='no-referrer' /></td><td>152X300mm</td><td>反光金属板、反光字体</td><td><img src='NIGERIA/Top public civil servant or individuals holding a political office/SAMPLE3.jpg' alt='ref' referrerPolicy='no-referrer' /></td></tr><tr><td>4</td><td>军事和准军事人员</td><td><img src='NIGERIA/TEMPLATE/TEMPLATE 4.png' alt='ref' referrerPolicy='no-referrer' /></td><td>152X300mm</td><td>反光金属板、反光字体</td><td><img src='NIGERIA/Military and Paramilitary operatives/SAMPLE4.jpg' alt='ref' referrerPolicy='no-referrer' /></td></tr><tr><td>5</td><td>外交车（Diplomatic）</td><td><img src='NIGERIA/TEMPLATE/TEMPLATE 5.png' alt='ref' referrerPolicy='no-referrer' /></td><td>152X300mm</td><td>反光金属板、反光字体</td><td><img src='NIGERIA/Diplomatic/SAMPLE5.jpg' alt='ref' referrerPolicy='no-referrer' /></td></tr></tbody></table></figure><p>&nbsp;</p><p>&nbsp;</p><p>&nbsp;</p><h2><a name='header-n315' class='md-header-anchor '></a>7.TOGO（多哥共和国）</h2><p>TOGO在文档中详细说明了ANPR（自动车牌号码识别系统）的车牌数据采集模板，详细的车牌种类信息描述如下：</p><figure><table><thead><tr><th>国家</th><th>类型</th><th>车牌模板</th><th>尺寸</th><th>车牌材料</th><th>描述</th><th>数据集（至少10张图片）</th><th>备注</th></tr></thead><tbody><tr><td>TOGO</td><td>Type 1 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 1.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520x120 mm</td><td>两者均反光</td><td>TOGO标识； 2个固定字母TG； 4个可变数字从&#39;0&#39;到9&#39;； 绿色背景，白色字体； 白色圆点和右端是字母G，G下面的一横线和线下面的字母“A”。</td><td><img src='TOGO/PICTURE SET/TYPE 1.png' alt='ref' referrerPolicy='no-referrer' /></td><td>政府车辆</td></tr><tr><td>TOGO</td><td>Type 2 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 2.png' alt='ref' referrerPolicy='no-referrer' /></td><td>440x220 mm</td><td>车牌反光</td><td>TOGO标识； 2个固定字母TG； 4个可变数字从&#39;0&#39;到9&#39;； 2个固定数字01； 蓝色背景，白色字体； 车牌右上角有一个灰圆点</td><td><img src='TOGO/PICTURE SET/TYPE 2.png' alt='ref' referrerPolicy='no-referrer' /></td><td>国际组织</td></tr><tr><td>TOGO</td><td>Type 3 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 3.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520x110 mm</td><td>两者均反光</td><td>TOGO标识； 2个固定字母TG； 4个可变数字从&#39;0&#39;到9&#39;； 2个固定字母从A到Z和一灰色圆点； 白色背景，黑色字体</td><td><img src='TOGO/PICTURE SET/TYPE 3.png' alt='ref' referrerPolicy='no-referrer' /></td><td>私家车</td></tr><tr><td>TOGO</td><td>Type 4 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 4.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520x110 mm</td><td>车牌反光</td><td>TOGO标识； 2个固定字母TG； 2个可变数字从&#39;0&#39;到9&#39;； 3个固定字母CMD和一圆点； 2个固定可变数字从0-9； 蓝色背景，白色字体</td><td><img src='TOGO/PICTURE SET/TYPE 4.png' alt='ref' referrerPolicy='no-referrer' /></td><td>仅用于大使</td></tr><tr><td>TOGO</td><td>Type 5 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 5.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520x120 mm</td><td>车牌反光</td><td>TOGO标识； 2个固定字母TG； 2个固定字母AT和一圆点； 4个可变数字从0-9； 蓝色背景，红色字体</td><td><img src='TOGO/PICTURE SET/TYPE 5.png' alt='ref' referrerPolicy='no-referrer' /></td><td>辅助技术车辆</td></tr><tr><td>TOGO</td><td>Type 6 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 6.png' alt='ref' referrerPolicy='no-referrer' /></td><td>440x229 mm</td><td>车牌反光</td><td>TOGO标识； 2个固定字母TG； 2个可变数字从0-9； 3个固定字母PAT； 3个可变数字从0-9； 蓝色背景，白色字体； 车牌右上角有一个灰圆点</td><td><img src='TOGO/PICTURE SET/TYPE 6.png' alt='ref' referrerPolicy='no-referrer' /></td><td>协议一致技术车辆</td></tr><tr><td>TOGO</td><td>Type 7 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 7.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520x110 mm</td><td>车牌反光</td><td>TOGO标识； 2个固定字母TG； 2个固定字母CD ；2个可变数字从0-9和一灰色圆点； 2个固定数字01； 蓝色背景，白色字体</td><td><img src='TOGO/PICTURE SET/TYPE 7.png' alt='ref' referrerPolicy='no-referrer' /></td><td>外交车辆</td></tr><tr><td>TOGO</td><td>Type 8 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 8.png' alt='ref' referrerPolicy='no-referrer' /></td><td>440x220 mm</td><td>车牌反光</td><td>TOGO标识； 2个固定字母TG； 2个固定字母AE ；4个可变数字从0-9和右上角有一灰色圆点； 白色背景，红色字体</td><td><img src='TOGO/PICTURE SET/TYPE 8.png' alt='ref' referrerPolicy='no-referrer' /></td><td>辅助经济车辆使用</td></tr><tr><td>TOGO</td><td>Type 9 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 9.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520x120 mm</td><td>车牌反光</td><td>TOGO标识； 2个固定字母TG；4个可变数字从0-9； 2个固定字母AO</td><td><img src='TOGO/PICTURE SET/TYPE 9.png' alt='ref' referrerPolicy='no-referrer' /></td><td>&nbsp;</td></tr><tr><td>TOGO</td><td>Type 10 (Sample)</td><td><img src='TOGO/TEMPLATE/TEMPLATE 10.png' alt='ref' referrerPolicy='no-referrer' /></td><td>520x120 mm</td><td>车牌反光</td><td>TOGO标识； 2个固定字母TG； 4个可变数字从0-9和一绿色圆点； 2个固定字母第一个字母固定为A，另一个可变从A-Z； 黄色背景，红色字体</td><td><img src='TOGO/PICTURE SET/TYPE 10.png' alt='ref' referrerPolicy='no-referrer' /></td><td>商用车辆</td></tr></tbody></table></figure><p>&nbsp;</p></div>
+</body>
+</html>
